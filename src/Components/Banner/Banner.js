@@ -23,7 +23,7 @@ const Banner = () => {
             <div className=" hero-section  col row-cols-1 row-cols-md-1 ">
 
                <div className="mt-2"> <div className='hero-type container mt-1 ' >
-                    <h2 className='text-white'>Are You Looking For<span className=' text-info'> Wacth</span>?Explore Now<span className=' text-white '>{
+                    <h2 className='text-white'>Are You Looking For Wacth? Explore Now<span className=' text-white '>{
                     
                     <Typewriter
   options={{
@@ -35,7 +35,7 @@ const Banner = () => {
 />
                     }</span></h2>
                     
-                    <button className='btn btn-danger  px-5 py-2 '><Link className="text-white text-decoration-none fw-bolder " to="/explore">Dive In</Link> </button>
+                    <button className='btn btn-primary  px-5 py-2 '><Link className="text-white text-decoration-none fw-bolder " to="/explore">Dive In</Link> </button>
 </div></div>
 
 
@@ -84,9 +84,9 @@ const Banner = () => {
 </div>
            
  </div>
-    <div className="col">
-     <div className="card bg-dark bg-opacity-10" >
-  <div className=''><div><img style={{width:"70px"}}  src={everydayService} className=" mt-2  card-img-top" alt="..."/></div><div className="card-body">
+    <div className="col ">
+     <div className="card  bg-dark bg-opacity-10" >
+  <div className=''><div><img  style={{width:"70px"}}  src={everydayService} className=" mt-2  card-img-top" alt="..."/></div><div className="card-body">
     <h5 className="card-title mt-2">Services Available 24hrs</h5> <small className="card-text">We Guarantee safe transaction. 100% safe.</small>
     
   </div></div>
@@ -109,7 +109,7 @@ const Banner = () => {
                 <div ><h3 style={{ marginTop: "150px" }} className='mx-5 mt-5 '>We Provide Quality Product See  <br />Our New Collection from Apple</h3>
                     <div className="mx-5 mt-5"><small>check this watch out , click here.</small><br />
                         <p>Every influencer liking this gig. so why not you? Hurry Up!</p>
-                <button className='btn btn-danger'><Link className="text-white text-decoration-none fw-bolder " to="/explore">See More</Link></button></div>
+                <button className='btn btn-primary'><Link className="text-white text-decoration-none fw-bolder " to="/explore">See More</Link></button></div>
                 
                 </div>
                 

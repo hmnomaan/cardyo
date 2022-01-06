@@ -17,8 +17,8 @@ const Header = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-success">
                 <div className="container text-white">
                     <NavLink className="navbar-brand fw-bold fs-3 text-white" to="/">
-                        <img height="40px" className="py-2 navbar-logo " src={Logo} alt="" />
-                         <span className='text-info'> Wacth</span>PLANET</NavLink>
+                        <img height="60px" className="py-2 navbar-logo " src={Logo} alt="" />
+                         <span className='px-2 text-info'> Wacth</span>PLANET</NavLink>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
